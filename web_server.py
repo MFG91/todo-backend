@@ -3,7 +3,7 @@ from resources import EntryManager, Entry
 
 app = Flask(__name__)
 
-FOLDER = '/tmp/'
+FOLDER = 'data.db'
 
 
 @app.route("/")
